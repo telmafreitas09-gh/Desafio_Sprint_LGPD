@@ -45,10 +45,30 @@
                         <option value="reclamacao">RECLAMAÇÃO</option>
                         <option value="solicitacao">SOLICITAÇÃO</option>
                     </select>
+                       
+                    <P class="textoPragrafo">Os dados serão mantidos em nossa base de dados, só enquanto for desejado por você. A 
+                    qualquer momento, será possível editar ou remover tais dados. <a href="https://www.ford.com.br/politica-de-privacidade/" target="_blank">Termos e Condições</a></P>
+                     
+                    <div>
+
+                    <div class="checkbox_item">
+                        <input type="checkbox" id="checkbox_1">
+                        <label for="checkbox_1">Sim. Li e concordo com os Termos e Condições.</label>
+                        
+                    </div>
+
+                    <div class="checkbox_item">
+                        <input type="checkbox" id="checkbox_2">
+                        <label for="checkbox_2">Sim. Também quero receber descontos e novidades.</label>
+
+                    </div>
+
+
+                     </div>
 
                     <!-- Padronizado o name para minúsculo (mensagem) -->
-                    <textarea name="mensagem" placeholder="MENSAGEM*" class="fordform" required></textarea>
-                    <button type="submit">Enviar</button>
+                   
+                    <button id="btn_enviar" class="btn">Enviar</button>
                 </form>
              
             </div>

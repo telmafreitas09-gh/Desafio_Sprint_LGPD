@@ -10,6 +10,8 @@ class Contato {
     }
 }
 
+
+
 function Post(form) {
     // Instancia a classe capturando os valores do formulário
     let dadosContato = new Contato(
